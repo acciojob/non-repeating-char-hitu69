@@ -10,13 +10,12 @@ function firstNonRepeatedChar(str) {
   return char;
   }
   } 
-  return "There's no non-repeated character in the string.";
+  return null;
   } 
   
   const userInput = prompt("Enter a string:");
   const result = firstNonRepeatedChar(userInput);
   if (result) {
   alert(result);
-  } else {
-  alert("There's no non-repeated character in the string.");
-  }
+	  
+  } 
